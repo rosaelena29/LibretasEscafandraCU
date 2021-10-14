@@ -1,0 +1,175 @@
+.imagen-producto {
+    max-width: 300px;
+    max-height: 100%;
+    border-radius: 30px;
+    padding-right: 10px;
+}
+
+.fila-productos {
+    justify-content: center;
+    display: flex !important;
+}
+
+.fila-productos-cust {
+    justify-content: center;
+    display: grid !important;
+}
+
+.tarjeta-producto {
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #ccc;
+    max-width: 320px !important;
+}
+
+.tarjeta-producto-cust {
+    justify-content: left bottom;
+    background-repeat: repeat;
+    display: block;
+    width: 950px;
+    height: 650px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+.nombre-producto {
+    text-align: center;
+    color: #08546d;
+}
+
+.precio-producto {
+    text-align: center;
+    color: #a00d0d;
+    font-family: cursive;
+}
+
+.descripcion-producto {
+    max-width: 300px;
+    text-align: justify;
+}
+
+.estilo-icono {
+    font-size: 64px;
+    border-style: outset;
+    background-color: #ec6774;
+}
+.estilo-icono1 {
+    font-size: 40px;
+}
+
+.div-icono {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.div-galeria {
+    padding-top: 30px;
+}
+
+.tarjeta-total {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: white;
+    border: solid;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 120px;
+    padding: 5px;
+}
+
+@media (max-width: 575.9px) {
+    .imagen-producto {
+        max-width: 310px;
+        max-height: 100%;
+        border-radius: 30px;
+        padding-left: 15px;
+    }
+
+    .tarjeta-producto {
+        padding: 10px;
+        border: solid;
+        margin: 10px;
+        border-radius: 30px;
+        box-shadow: 10px 10px 10px #ccc;
+        max-width: 300px !important;
+    }
+
+    .descripcion-producto {
+        max-width: 310px;
+        text-align: justify;
+        font-size: 25px;
+    }
+
+    #navBar {
+        font-size: 15px;
+        }
+    }
+    .tamano-video {
+        height: auto;
+        width: 350px
+    }
+    .logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-container__site-logo {
+        height: 80px;
+    }
+    .header-section {
+        margin-bottom: 100px;
+    }
+
+.banner {
+    width: 100%;
+}
+
+.banner>img {
+    width: 100%;
+    height: 400px;
+    max-width: 1400px;
+    object-fit: cover;
+}
+#text-cont{
+    text-align: center;
+}
+#test_1 {
+    text-align: left;
+    width: 50%;
+}
+
+#row-formulario {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#test_1 {
+    text-align: left;
+    width: 50%;
+    margin-left: 30%;
+    margin-right: 40%;
+}
+
+#row-formulario {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#registrar {
+    padding-left: 20%;
+}
+
+#ingreso-info {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#form-contactanos {
+    padding-left: 10%;
+    padding-right: 20%;
+}

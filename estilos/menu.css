@@ -1,0 +1,154 @@
+
+table {
+    font-family: sans-serif;
+    font-size: 30px;
+  }
+
+  #navBar {
+    z-index: 1;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #f09090 !important;
+    box-shadow: 10px 10px 10px #ccc;
+    border-radius: 10px;
+  }
+
+  #navBar a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*width: 260px;
+    height: 40px;*/
+  }
+
+  #navBar a:hover {
+    color: #000;
+    background: #B9B9B9;
+    text-decoration: none;
+  }
+
+  #navBar a.selected {
+    color: #000;
+    background: #B9B9B9;
+    text-decoration: none;
+  }
+  .site-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.site-nav>a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-nav>a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.header-section {
+  margin-bottom: 100px;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #f02323;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.iconos-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.iconos-header svg {
+  margin-right: 8px;
+  width: 25px;
+  height: 25px;
+}
+.site-title {
+  width: 30%;
+}
+.titulos {
+  font-family: myriad;
+  font-size: 60px;
+}
+
+*/ .borde-ejemplo {
+  border-style: solid;
+
+}
+
+.cambio-color {
+  background-color: rgb(236, 230, 230);
+}
+
+.cambio-color1 {
+  background-color: rgb(161, 159, 159);
+}
+
+.cambio-color2 {
+  background-color: rgb(5, 5, 5);
+}
+.titulo {
+  text-align: center;
+}
+.solicitudInfo {
+  width: 50%;
+  margin: 0 auto;
+}
+div.container-footer {
+  text-align: center;
+  background-color: #E2DCDA;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contenido {
+  display: block;
+  background-color: black;
+  font-size: 12px;
+  text-align: left;
+  line-height: 200%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20%;
+  padding-right: 10%;
+}
+
+.linea {
+  border-top: 1px solid white;
+  height: 2px;
+  width: 84%;
+  padding: 0;
+  margin: 20px 1px;
+  display: flex;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-size: 12px;
+  text-align: center;
+}

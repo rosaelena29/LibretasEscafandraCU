@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Productos</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes\ESCAF_favicon16.png" type="image/jpg" />
+    <link rel="stylesheet" type="text/css" href="estilos/menu.css">
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+    <link rel="stylesheet" type="text/css" href="estilos/RHover.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="scripts/productos.js"></script>
+     <script src="scripts/RHover.js"></script>
+    <!--<div class="container">
+            <h1>Productos disponibles</h1>
+        </div>
+        <table id="navBar">
+            <tr>
+                <th><a href="index.html">Inicio</a></th>
+                <th><a href="productos.html">Productos</a></th>
+                <th><a href="clientes.html">Clientes</a></th>
+                <th><a href="carrito.html">Carrito de Compras</a></th>
+            </tr>
+        </table>
+    -->
+    <!-- inicio encabezado del sitio -->
+    <div class="header-section">
+        <div class="row header-container" style="background-color: #E3001C;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="logo-container">
+                                    <img class="logo-container__site-logo" src="./imagenes\favicon2.png"
+                                        alt="Logo MisionTic 2022">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div>
+                                    <h1 style="color: white;">ESCAFANDRA</h1>
+                                    <h6 style="color: white;">LIBRETAS ÚNICAS Y PERSONALIZADAS</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="row" style="padding-bottom: 10px; padding-top: 10px;">
+                            <div class="col-12">
+                                <div class="iconos-header">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-whatsapp" width="44" height="44"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                                        <path
+                                            d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <rect x="4" y="4" width="16" height="16" rx="4" />
+                                        <circle cx="12" cy="12" r="3" />
+                                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="site-nav">
+                                    <a href="index.html" style="color: white;">INICIO</a>
+                                    <a href="productos.html" style="color: white;">PRODUCTOS</a>
+                                    <a href="clientes.html" style="color: white;">CLIENTES</a>
+                                    <a href="contactanos.html" style="color: white;">CONTÁCTANOS</a>
+                                    <a class="las la-cart-arrow-down estilo-icono1" href="carrito.html"
+                                        style="color: white;"></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <img src="imagenes\escaf_banner.jpg" style="width: 100%; height: 25%;">
+
+        <h1 class="titulo" style="margin-top: 30px; margin-bottom: 10px;"><b>PRODUCTOS</b></h1>
+
+        <div class="container div-galeria" id="galeria" style="padding-top: 30px;">
+            <div class="row fila-productos">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                    <img class="imagen-producto" src="imagenes\moliazul.jpg">
+                    <h3 class="precio-producto">$40.000</h3>
+                    <div class="descripcion-producto">
+                        <p>Mediana de pasta dura en diseño impreso con reproducion de "Le Moulind de Vincent Van Gogh"
+                            </p>
+                    </div>
+                    <div id="icono" class="div-icono">
+                        <i class="las la-cart-arrow-down estilo-icono" onclick="agregarAlCarrito('imagenes\moliazul.jpg', 40000)"></i>
+                        <p><b>Agregar al carrito</b></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                    <img class="imagen-producto" src="imagenes\blancaunicornio.jpg">
+                    <h3 class="precio-producto">$25.000</h3>
+                    <div class="descripcion-producto">
+                        <p>Pequeña con vinilo impreso de unicornio enviado por Leo y papel de caña de 90gr</p>
+                    </div>
+                    <div id="icono" class="div-icono">
+                        <i class="las la-cart-arrow-down estilo-icono"
+                            onclick="agregarAlCarrito('imagenes\blancaunicornio.jpg', 25000)"></i>
+                        <p><b>Agregar al carrito</b></p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                    <img class="imagen-producto" src="imagenes\hojasverdes.jpg">
+                    <h3 class="precio-producto">$25.000</h3>
+                    <div class="descripcion-producto">
+                        <p>Con portada en telas de hojas,tapa dura, papel de caña,resorte y separador de cinta</p>
+                    </div>
+                    <div id="icono" class="div-icono">
+                        <i class="las la-cart-arrow-down estilo-icono" onclick="agregarAlCarrito('imagenes\hojasverdes.jpg', 25000)"></i>
+                        <p><b>Agregar al carrito</b></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                    <img class="imagen-producto" src="imagenes\telaflores.jpg">
+                    <h3 class="precio-producto">$25.000</h3>
+                    <div class="descripcion-producto">
+                        <p>De papel de caña y portada de tapa dura en tela de flores, banda elástica y un formato vertical de 25.5 * 15 cm</p>
+                    </div>
+                    <div id="icono" class="div-icono">
+                        <i class="las la-cart-arrow-down estilo-icono"
+                            onclick="agregarAlCarrito('imagenes\telaflores.jpg', 25000)"></i>
+                        <p><b>Agregar al carrito</b></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                    <img class="imagen-producto" src="imagenes\rosa.jpg">
+                    <h3 class="precio-producto">$50.000</h3>
+                    <div class="descripcion-producto">
+                        <p>Con portada en papel reciclado hecho a mano con patrón en linóleo y papel de caña de 150 gr</p>
+                    </div>
+                    <div id="icono" class="div-icono">
+                        <i class="las la-cart-arrow-down estilo-icono"
+                            onclick="agregarAlCarrito('imagenes\rosa.jpg', 50000)"></i>
+                        <p><b>Agregar al carrito</b></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                    <img class="imagen-producto" src="imagenes\agenda 3.jpg">
+                    <h3 class="precio-producto">$45.000</h3>
+                    <div class="descripcion-producto">
+                        <p>Con portada en tapa dura alcolchada con diseño impreso en canvas y papel bond de 150 gr. Viene acompañada con su respectivo sobre (proyecto en proceso)</p>
+                    </div>
+                    <div id="icono" class="div-icono">
+                        <i class="las la-cart-arrow-down estilo-icono"
+                            onclick="agregarAlCarrito('imagenes\rosa.jpg', 45000)"></i>
+                        <p><b>Agregar al carrito</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="fila-productos-cust">
+        <!--Row adicional para el producto customizado-->
+        <div class="tarjeta-producto-cust" style="background-image:url('imagenes/hormigón.jpg')">
+            <h3 style="text-align:center"> AGENDA PERSONALIZADA</h3>
+            <p3><font size='5' style='italic'> Seleccione las opciones de personalización para su agenda.</font></p>
+            <div class="row" style="width:600px;height:40px;justify-content:center">
+                <nav>
+                    <menu>
+                    <menuitem id="demo1" style="z-index:5">
+                        <a>Tamaño de libreta</a>
+                        <menu>
+                                <menuitem id="demo2">
+                                    <a>Bolsillo</a>
+                                </menuitem>
+                                <menuitem id="demo2">
+                                    <a>Pequeña</a>
+                                </menuitem>
+                                <menuitem id="demo2">
+                                    <a>Cosido horizontal</a>
+                                </menuitem>
+                                <menuitem id="demo2">
+                                    <a>Medio oficio</a>
+                                </menuitem>
+                                <menuitem id="demo2">
+                                    <a>Carta completa</a>
+                                </menuitem>
+                        </menu>
+                    </menuitem>
+                    </menu>
+                </nav>
+                <nav>
+                    <menu>
+                    <menuitem id="demo1"  style="z-index:4">
+                        <a>Tipo de material</a>
+                        <menu>
+                                <menuitem id="demo2">
+                                    <a>Tela</a>
+                                    <menu>
+                                        <menuitem id="stam">
+                                            <a>Estampado</a>
+                                        </menuitem>
+                                        <menuitem id="fsol">
+                                            <a>Fondo solido</a>
+                                        </menuitem>
+                                    </menu>
+                                </menuitem>
+                                <menuitem id="demo2">
+                                    <a>Vinilo adhesivo</a>
+                                </menuitem>
+                                <menuitem id="demo2">
+                                    <a>Serigrafia</a>
+                                    <menu>
+                                        <menuitem id="unatin">
+                                            <a>Una tinta</a>
+                                        </menuitem>
+                                        <menuitem id="dostin">
+                                            <a>Dos tintas</a>
+                                        </menuitem>
+                                    </menu>
+                                </menuitem>
+                                <menuitem id="demo2">
+                                    <a>Cuero-cuerina</a>
+                                </menuitem>
+                                <menuitem id="demo2">
+                                    <a>Papel reciclado</a>
+                                    <menu>
+                                        <menuitem id="recic">
+                                            <a>Con impreso</a>
+                                        </menuitem>
+                                        <menuitem id="fsol">
+                                            <a>Sin impreso</a>
+                                        </menuitem>
+                                    </menu>
+                                </menuitem>
+                        </menu>
+                    </menuitem>
+                    </menu>
+                </nav>
+                <nav>
+                    <menu>
+                    <menuitem id="demo1" style="z-index:3">
+                        <a>Tipo de encuadernación</a>
+                        <menu>
+                                <menuitem id="demo2">
+                                    <a>Japonesa</a>
+                                </menuitem>
+                                <menuitem id="demo2">
+                                    <a>Copta</a>
+                                </menuitem>
+                                <menuitem id="demo2">
+                                    <a>Caballo</a>
+                                </menuitem>
+                                <menuitem id="demo2">
+                                    <a>Cuero-cuerina</a>
+                                </menuitem>
+                        <menu>
+                    </menu>
+                </nav>
+                <nav>
+                    <menu>
+                    <menuitem id="demo1" style="z-index:2">
+                        <a>Tipo de papel</a>
+                        <menu>
+                                <menuitem id="demo2">
+                                    <a>Bond</a>
+                                    <menu>
+                                        <menuitem id="hoja">
+                                            <a>80 hojas,90 gr</a>
+                                        </menuitem>
+                                    </menu>
+                                </menuitem>
+                                <menuitem id="hoja">
+                                    <a>Durex</a>
+                                    <menu>
+                                        <menuitem id="unatin">
+                                            <a>40 hojas,180 gr</a>
+                                        </menuitem>
+                                    </menu>
+                                </menuitem>
+                                <menuitem id="demo2">
+                                    <a>Opalino</a>
+                                    <menu>
+                                        <menuitem id="unatin">
+                                            <a>40 hojas,180 gr</a>
+                                        </menuitem>
+                                    </menu>
+                                </menuitem>
+                        </menu>
+                    </menuitem>
+                    </menu>
+                </nav>
+            </div>
+            <div class="row" style="width:800px;height:355px;justify-content:bottom">
+                <h3 class="precio-producto" style="text-align:center;padding:300px 0"> Precio : $ 15000</h3>
+            </div>
+            <div class="row" style="width:900px;height:110px;justify-content:center">
+                <div id="icono" class="div-icono">
+                    <i class="las la-cart-arrow-down estilo-icono"
+                        onclick="agregarAlCarrito('somet', 15000)"></i>
+                    <p><b>Agregar al carrito</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+        <div class="tarjeta-total">
+            <h1>TOTAL</h1>
+            <h2 id="total_carrito">$0</h2>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="contenido">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="#" class="link-light">POLÍTICA DE PRIVACIDAD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="link-light">TÉRMINOS Y CONDICIONES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="link-light">POLÍTICA DE COOKIES</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="productos.html" class="link-light">PRODUCTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="link-light">SOPORTE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="link-light">CONTÁCTANOS</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <!-- One of three columns -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp"
+                            width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                            <path
+                                d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"
+                            width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
+                            width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <rect x="4" y="4" width="16" height="16" rx="4" />
+                            <circle cx="12" cy="12" r="3" />
+                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="linea"></div>
+        </div>
+    </footer>   
+</body>
+
+</html>
